@@ -3,41 +3,6 @@
 
 /* ----------------------------關於我們 -------------------*/
 
-/* -----------------------header---------------------- */
-
-header{
-    display: block;
-    width: 1200px;
-    /* border: 1px solid white; */
-    margin: 140px auto 0px;
-}
-
-header h3{
-    font-size: 22px;
-    margin-top: 30px;
-    font-weight: bold;
-    font-style: italic;
-    padding-left: 30px;
-}
-
-header p{
-    font-size: 14px;
-    padding-top: 10px;
-    text-align: right;
-    letter-spacing: 1px;
-    padding-right: 30px;
-}
-
-header .underline{
-    display: block;
-    width: 100%;
-    height: 1px;
-    margin: 20px auto;
-    background-color: white;
-}
-
-/* -----------------------header end---------------------- */
-
 /* -----------------------article---------------------- */
 
 article{
@@ -53,10 +18,6 @@ section{
     /* border: 1px solid red; */
     width: 1000px;
     margin: 0 auto;
-}
-
-aside ul{
-    /* border: 1px solid yellow; */
 }
 
 aside li{
@@ -111,6 +72,41 @@ main p{
     /* border: 1px solid wheat; */
     text-align: center;
 }
+
+/* ----------------- 介紹頁面列 ----------------- */
+
+header{
+    display: block;
+    width: 1200px;
+    /* border: 1px solid white; */
+    margin: 140px auto 0px;
+}
+
+header h3{
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+header p{
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-right: 30px;
+}
+
+header .underline{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+/* ----------------- 介紹頁面列 end----------------- */
 
 
 
