@@ -1,0 +1,27 @@
+@import 'index.css';
+/* ------------ 常見問題----------  */
+
+.question{
+    margin: 270px auto;
+    color: black;
+}
+
+
+
+.question p{
+    background-color: white;
+    display: block;
+    width: 750px;
+    margin: 20px auto;
+    padding: 30px;
+    line-height: 1.6;
+
+    height: 50px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.question p:hover{
+    box-shadow: 10px 10px 5px rgba(255, 152, 0, 1);
+    transform: scale(1.2);
+}
