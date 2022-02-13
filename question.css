@@ -1,27 +1,37 @@
 @import 'index.css';
 /* ------------ 常見問題----------  */
 
-.question{
-    margin: 270px auto;
-    color: black;
-}
+/* ----------------- 介紹頁面列 ----------------- */
 
-
-
-.question p{
-    background-color: white;
+header{
     display: block;
-    width: 750px;
+    width: 1200px;
+    /* border: 1px solid white; */
+    margin: 140px auto 0px;
+}
+
+header h3{
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+header p{
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-right: 30px;
+}
+
+header .underline{
+    display: block;
+    width: 100%;
+    height: 1px;
     margin: 20px auto;
-    padding: 30px;
-    line-height: 1.6;
-
-    height: 50px;
-    text-align: left;
-    transition: 0.5s;
+    background-color: white;
 }
 
-.question p:hover{
-    box-shadow: 10px 10px 5px rgba(255, 152, 0, 1);
-    transform: scale(1.2);
-}
+/* ----------------- 介紹頁面列 end----------------- */
