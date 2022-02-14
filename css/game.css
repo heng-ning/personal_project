@@ -1,0 +1,179 @@
+@import url('css/reset.css');
+@import url('css/index.css');
+
+/* ----------------------------MENU -------------------*/
+
+/* ----------------- 介紹頁面列 ----------------- */
+
+header{
+    display: block;
+    width: 1200px;
+    /* border: 1px solid white; */
+    margin: 140px auto 0px;
+}
+
+header h3{
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+header p{
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-right: 30px;
+}
+
+header .underline{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+/* ----------------- 介紹頁面列 end----------------- */
+
+/********************* START *****************/
+main{
+    /* border: 1px solid white; */
+    margin: 100px auto;
+    width: 1000px;
+}
+
+main h4{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 1.6;
+}
+
+main input{
+    background: transparent;
+    color: white;
+    line-height: 1.6;
+    display: block;
+    width: 150px;
+    height: 40px;
+    padding-right: 10px;
+    margin: 100px auto;
+    cursor: pointer;
+}
+
+main input:hover{
+    transform: translateY(-3px);
+    box-shadow: 2px 2px 6px 2px rgba(255, 152, 0, 1);
+}
+
+/********************* START end *****************/
+
+/********************* Step2 *****************/
+section{
+    /* border: 1px solid red; */
+    width: 1140px;
+    height: 630px;
+    margin: -60px auto;
+    background-image: url('../未命名-1_工作區域\ 1.png');
+    background-repeat: no-repeat;
+}
+
+section h3{
+    display: block;
+    width: 12%;
+    height: 15px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    margin: 90px 0px;
+}
+
+article{
+    /* border: 1px solid saddlebrown; */
+    margin: 0 100px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 440px;
+}
+
+article input{
+    background: transparent;
+    color: white;
+    line-height: 1.6;
+    display: block;
+    width: 150px;
+    height: 40px;
+    padding-right: 10px;
+    margin: 60px auto;
+    cursor: pointer;
+}
+
+article input:hover {
+    transform: translateY(-3px);
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 6px 2px rgba(255, 152, 0, 1);
+}
+
+aside input{
+   margin: 60px 260px;
+   cursor: pointer;
+}
+
+/********************* Step2 *****************/
+
+/********************* result *****************/
+
+main h3{
+    display: block;
+    width: 12%;
+    height: 15px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+.test{
+    /* border: 1px solid red; */
+    width: 900px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.test_text{
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    color: #f1f1f1;
+    line-height: 1.6;
+    justify-content: center;
+    margin: 50px auto;
+    
+}
+
+.test_text h4{
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+
+    width: 15em; 
+    overflow: hidden; 
+    white-space: nowrap;
+    border-right: 0.2em solid;
+    color: rgba(255, 152, 0, 1);
+    animation:
+    typing 3s steps(15),
+    caret 0.5s steps(1) infinite;
+}
+
+.test img{
+    width: 30%;
+}
+
+main input{
+   cursor: pointer;
+}
