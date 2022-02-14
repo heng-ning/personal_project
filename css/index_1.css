@@ -1,4 +1,6 @@
-@import url('index.css');
+@import url('css/reset.css');
+@import url('css/index.css');
+
 
 /* -------------------header-------------------------- */
 
@@ -53,7 +55,7 @@ header input{
     height: 40px;
     padding-right: 10px;
    
-    background-image: url('button_工作區域\ 1.png');
+    background-image: url('../首頁/button_工作區域\ 1.png');
     background-repeat: no-repeat;
     background-position: right; 
 }
@@ -184,7 +186,7 @@ article li{
 aside{
     background-color: rgba(0, 0, 0, 80%);
     background-blend-mode: multiply;
-    background-image: url('首頁/2.jpg');
+    background-image: url('../首頁/2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -194,6 +196,10 @@ aside{
 
     padding: 40px;
     box-sizing: border-box;
+}
+
+aside ul li img, aside .aside_text{
+    cursor: pointer;
 }
 
 aside ul{

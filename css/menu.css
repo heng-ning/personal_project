@@ -1,5 +1,5 @@
-@import url('reset.css');
-@import url('index.css');
+@import url('css/reset.css');
+@import url('css/index.css');
 
 /* ----------------------------MENU -------------------*/
 
@@ -98,4 +98,8 @@ main li{
     margin-bottom: 50px;
 }
 
-/* -----------------------article end---------------------- */
+main li img{
+    cursor: pointer;
+}
+
+/* -----------------------article end---------------------- *
