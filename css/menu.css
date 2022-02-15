@@ -38,6 +38,114 @@ header .underline{
 
 /* ----------------- 介紹頁面列 end----------------- */
 
+/* ----------------- detail ----------------- */
+
+.detail{
+    display: block;
+    width: 450px;
+    height: 90%;
+    background-color: rgba(255,255,255, .6);
+
+    position: absolute;
+    position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+    z-index: 10;
+
+    display: none;
+}
+
+.detail img{
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+    height: 90%;
+}
+
+/* .close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    z-index: 15;
+    background-color: rgb(255 255 255 / 0%);;
+}
+
+.close img{
+    width: 50%;
+} */
+
+.detail_content{
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 100;
+    background-color: #f2f2f2;
+    border: 1px solid #C4A87E;
+    width: 700px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: none;
+}
+
+.detail_1{
+    /* background-color: white; */
+    border: 1px solid beige;
+    display: block;
+    width: 400px;
+    height: 50%;
+    position: absolute;
+    top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.detail_1 img{
+    /* height: 100%; */
+    position: absolute;
+    top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding-right: 10px;
+}
+
+.detail_1 h3{
+    display: block;
+    border: 1px solid red;
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -----------------------article---------------------- */
 
 article{

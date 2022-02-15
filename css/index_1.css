@@ -70,6 +70,7 @@ header input:hover{
 /* -----------------main------------------------ */
 
 main{
+    /* border: 1px solid aliceblue; */
     display: flex;
     justify-content: center;
 }

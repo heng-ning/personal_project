@@ -170,6 +170,10 @@ main h3{
     caret 0.5s steps(1) infinite;
 }
 
+.test p{
+    text-align: center;
+}
+
 .test img{
     width: 30%;
 }
