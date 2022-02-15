@@ -55,7 +55,7 @@ header .underline{
 	margin: auto;
     z-index: 10;
 
-    display: none;
+    /* display: none; */
 }
 
 .detail img{
@@ -68,74 +68,81 @@ header .underline{
     height: 90%;
 }
 
-/* .close{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 10%;
-    height: 10%;
+.detail_content>button {
+    float: right;
+    padding-right: 5px;
+    font-family: Arial;
+    font-size: 25px;
+    color: rgba(255, 152, 0, 1);
+    border: none;
     cursor: pointer;
-    z-index: 15;
-    background-color: rgb(255 255 255 / 0%);;
 }
 
-.close img{
-    width: 50%;
-} */
-
 .detail_content{
-    position: fixed;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-50%, 50%);
-    z-index: 100;
-    background-color: #f2f2f2;
-    border: 1px solid #C4A87E;
-    width: 700px;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 0 auto;
     display: none;
+    display: block;
+    width: 450px;
+    height: 300px;
+    background-color: #f2f2f2;
+
+    position: absolute;
+    position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+    z-index: 10;
 }
 
 .detail_1{
     /* background-color: white; */
     border: 1px solid beige;
-    display: block;
-    width: 400px;
-    height: 50%;
-    position: absolute;
-    top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	margin: auto;
+   margin: 40px 0;
+   
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.detail_1 img{
-    /* height: 100%; */
-    position: absolute;
-    top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	padding-right: 10px;
+.detail_img{
+ vertical-align: bottom;
 }
 
-.detail_1 h3{
-    display: block;
-    border: 1px solid red;
+.detail_text{
+    margin-left: 50px;
     color: black;
-    
 }
 
+.detail_text h3{
+    margin-bottom: 20px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
 
+}
 
+.detail_text h4{
+    margin: 10px 0;
+}
 
+.detail_text p{
+    padding-bottom: 10px;
+}
 
+#mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+   
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.mask{
+    display: block;
+    z-index: 9;
+}
 
 
 
