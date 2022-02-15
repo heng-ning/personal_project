@@ -117,11 +117,11 @@ header .underline{
     margin-bottom: 20px;
     font-weight: 500;
     letter-spacing: 0.6px;
-
 }
 
 .detail_text h4{
     margin: 10px 0;
+    color: rgba(255, 152, 0, 1);
 }
 
 .detail_text p{
